@@ -1,7 +1,17 @@
-import React from 'react'
+import React, {useState} from 'react'
 import loginimg from "../assets/login.svg";
+import { AiOutlineEye, AiOutlineEyeInvisible } from "react-icons/ai";
 
-const Login = ({onRegister,onReset}) => {
+
+const Login = ({onRegister,onReset,onPasswordVisible,onTogglePassword}) => {
+    const [password, setPassword] = useState("");
+
+    const handlePasswordChange = (e) => {
+        e.preventDefault();
+        setPassword(e.target.value);
+        // console.log(password);
+      };
+
   return (
     <div className='main-container --card --flex-center ' >
         <div className='img-container --h100 --w50 --bg-primary'>
@@ -13,9 +23,19 @@ const Login = ({onRegister,onReset}) => {
                 <div>
                     <input className='--w100' type="text" placeholder='UserName'/>
                 </div>
-                <div>
-                    <input className='--w100' type="password" placeholder='Password'/>
-                </div>
+                <div className="password">
+                    <input
+                    // onFocus={handleFocus}
+                    className="--w100"
+                    type={onPasswordVisible ? "text" : "password"}
+                    placeholder="Password"
+                    value={password}
+                    onChange={handlePasswordChange}
+                    />
+                    <span onClick={onTogglePassword} className="icon">
+                    {onPasswordVisible ? <AiOutlineEyeInvisible /> : <AiOutlineEye />}
+                    </span>
+                 </div>
                 <div>
                     <button className='--btn-primary --btn-lg --btn --btn-block'>Login</button>
                 </div>
