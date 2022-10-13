@@ -76,6 +76,10 @@ section {
   flex-direction: column;
 }
 
+.--align-center{
+  align-items: center;
+}
+
 .--cg{
   column-gap: 5px;
 }

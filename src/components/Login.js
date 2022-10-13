@@ -8,7 +8,7 @@ const Login = ({onRegister,onReset}) => {
             <img  src={loginimg} className="--w100 --h100" alt="loginimg" />
         </div>
         <div className="form-container --w50">
-            <form className='--form-control --dir-column'>
+            <form className='--form-control --p2 --dir-column'>
                 <h2 className='--text-center --color-danger'>Login</h2>
                 <div>
                     <input className='--w100' type="text" placeholder='UserName'/>

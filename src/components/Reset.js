@@ -4,10 +4,10 @@ import {AiOutlineCloseCircle} from "react-icons/ai"
 
 const Reset = ({onLogin}) => {
   return (
-    <div className='main-container --card --flex-center ' >
+    <div className='main-container --card --flex-center reset ' >
         
-        <div className="form-container --w50 --h100 reset">
-            <form className='--form-control --dir-column '>
+        <div className="form-container --w50 --h100 ">
+            <form className='--form-control --p2 --dir-column '>
                 <h2 className='--text-center --color-danger'>Reset Password</h2>
                 
                 <div>
