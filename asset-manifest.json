@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-login-form/static/css/main.789fbdf3.css",
-    "main.js": "/React-login-form/static/js/main.eb56a94b.js",
+    "main.css": "/React-login-form/static/css/main.512e4a27.css",
+    "main.js": "/React-login-form/static/js/main.b4acc25e.js",
     "static/media/register.svg": "/React-login-form/static/media/register.f1f0c620ef428d9d3f1942671bcfb375.svg",
     "static/media/login.svg": "/React-login-form/static/media/login.80966d41e754f8ef10d4702039c1bae6.svg",
     "static/media/forgot.svg": "/React-login-form/static/media/forgot.0ffd5c8d78ea83ebec4a284750a1c069.svg",
     "index.html": "/React-login-form/index.html",
-    "main.789fbdf3.css.map": "/React-login-form/static/css/main.789fbdf3.css.map",
-    "main.eb56a94b.js.map": "/React-login-form/static/js/main.eb56a94b.js.map"
+    "main.512e4a27.css.map": "/React-login-form/static/css/main.512e4a27.css.map",
+    "main.b4acc25e.js.map": "/React-login-form/static/js/main.b4acc25e.js.map"
   },
   "entrypoints": [
-    "static/css/main.789fbdf3.css",
-    "static/js/main.eb56a94b.js"
+    "static/css/main.512e4a27.css",
+    "static/js/main.b4acc25e.js"
   ]
 }
