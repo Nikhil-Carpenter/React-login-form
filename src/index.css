@@ -463,6 +463,11 @@ p {
   margin-right: 1rem;
 }
 
+.--underline{
+  text-decoration: underline;
+  color: #007bff;
+}
+
 @media screen and (max-width: 600px) {
   .--flex-dir-column {
     flex-direction: column;

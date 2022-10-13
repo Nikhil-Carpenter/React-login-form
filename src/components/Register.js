@@ -27,7 +27,7 @@ const Register = ({ onLogin }) => {
   const handlePasswordChange = (e) => {
     e.preventDefault();
     setPassword(e.target.value);
-    console.log(password);
+    // console.log(password);
   };
 
   useEffect(() => {
@@ -107,7 +107,7 @@ const Register = ({ onLogin }) => {
           {/* <span className='--text-xs'>Forgot password?</span> */}
           <p>
             Have an account?{" "}
-            <span onClick={onLogin} className="--pointer">
+            <span onClick={onLogin} className="--pointer --underline">
               Login
             </span>
           </p>
